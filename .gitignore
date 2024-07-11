@@ -13,3 +13,4 @@
 /data/index_store.json
 /.idea/dataSources.xml
 /.idea/sqldialects.xml
+venv/

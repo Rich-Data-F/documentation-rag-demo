@@ -1,8 +1,15 @@
 einops
 llama-index
+llama-index-core
+llama-index-llms-ollama
 llama-index-embeddings-huggingface
 llama-index-vector-stores-postgres
+llama-index-indices-managed-postgresml
+# llama-index-llms-llama-cpp #addition in Jul2024
 psycopg2-binary
 python-dotenv
 sqlalchemy
 streamlit
+#ollama
+python-dotenv # and not dotenv
+
