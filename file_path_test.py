@@ -1,7 +1,6 @@
 import os
 import sys
-import dotenv
-from dotenv import load_dotenv, find_dotenv
+from python-dotenv import load_dotenv, find_dotenv
 
 
 try:
@@ -61,7 +60,11 @@ paths_list=[
     '/mnt/g/My Drive/Pdfs/Sample_for_Rag',
     'g\My Drive\Pdfs\Sample_for_Rag',
     'g\My Drive\Pdfs\Sample_for_Rag',
-    'g:\My Drive\Pdfs\Sample_for_Rag'
+    'g:\My Drive\Pdfs\Sample_for_Rag',
+    "/mnt/g/My Drive/Pdfs/Sample_for_Rag",
+    "./mnt//g://My Drive//Pdfs//Sample_for_Rag",
+    "./mnt//g://My Drive//Pdfs//Sample_for_Rag",
+    "./mnt/g/My Drive/Pdfs/Sample_for_Rag"
 ]
 
 for path in paths_list:
